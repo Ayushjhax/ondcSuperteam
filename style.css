@@ -1,0 +1,32 @@
+/* Custom CSS for project description section */
+.project-description {
+  margin-top: 50px; /* Adjust the margin as needed */
+  text-align: center;
+}
+
+.project-description h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.project-description p {
+  font-size: 1.25rem;
+  margin-top: 20px;
+}
+
+/* Adjusting button size and visibility */
+.icon-link {
+  font-size: 1.2rem;
+  color: rgb(255, 253, 253); /* Change color to black */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+  color: #212529; /* Darken color on hover */
+}
+
+/* Adding space between product descriptions */
+.product-container {
+  margin-bottom: 40px;
+}
