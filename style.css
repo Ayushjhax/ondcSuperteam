@@ -21,7 +21,7 @@
 }
 
 .icon-link:hover {
-  color: #212529;
+  color: #0080ff;
 }
 
 .product-container {
@@ -46,11 +46,11 @@
 
 .product-section h1,
 .product-section h3 {
-  color: #000000;
+  color: #230fd1;
 }
 
 .product-section .icon-link {
-  color: #000000;
+  color: #0616f9;
 }
 .product-section {
   position: relative;
@@ -66,11 +66,11 @@
 
 .product-section h1,
 .product-section h3 {
-  color: #000; /* Adjust text color as needed */
+  color: #000000; /* Adjust text color as needed */
 }
 
 .product-section .icon-link {
-  color: #000; /* Adjust link color as needed */
+  color: #071bfe; /* Adjust link color as needed */
 }
 
 .product-device,
