@@ -1,6 +1,5 @@
-/* Custom CSS for project description section */
 .project-description {
-  margin-top: 50px; /* Adjust the margin as needed */
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -14,19 +13,79 @@
   margin-top: 20px;
 }
 
-/* Adjusting button size and visibility */
 .icon-link {
   font-size: 1.2rem;
-  color: rgb(255, 253, 253); /* Change color to black */
+  color: rgb(255, 253, 253);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .icon-link:hover {
-  color: #212529; /* Darken color on hover */
+  color: #212529;
 }
 
-/* Adding space between product descriptions */
 .product-container {
   margin-bottom: 40px;
+}
+.product-section {
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  background-position: center;
+}
+.product-section {
+  position: relative;
+  overflow: hidden;
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.product-section .col-md-6 {
+  max-width: 100%;
+}
+
+.product-section h1,
+.product-section h3 {
+  color: #000000;
+}
+
+.product-section .icon-link {
+  color: #000000;
+}
+.product-section {
+  position: relative;
+  overflow: hidden;
+  padding: 3rem 1rem; /* Adjust padding as needed */
+  text-align: center;
+  background-color: #f8f9fa; /* Change background color as needed */
+}
+
+.product-section .col-md-6 {
+  max-width: 100%; /* Make sure content is not wider than the container */
+}
+
+.product-section h1,
+.product-section h3 {
+  color: #000; /* Adjust text color as needed */
+}
+
+.product-section .icon-link {
+  color: #000; /* Adjust link color as needed */
+}
+
+.product-device,
+.product-device-2 {
+  color: aliceblue;
+}
+
+.product-section .fw-normal {
+  color: #d3dadf; /* Change text color for "Designed and Build by Ayush with Love ❤️" */
+}
+.headline-image {
+  width: 100%; /* Adjust the width as needed */
+  max-width: 500px; /* Set a maximum width if desired */
+  margin-top: 20px; /* Add some space above the image */
+  margin-bottom: 20px; /* Add some space below the image */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
 }
